@@ -286,40 +286,6 @@ export async function parseFuelTypes() {
     }
 }
 
-export function refuelsTemplate(refData, fuelType) {
-    refData.fuelSpentPreviousYear = refData.fuelSpentPreviousYear.toFixed(2);
-    refData.fuelSpentThisYear = refData.fuelSpentThisYear.toFixed(2);
-    refData.fuelSpentThisMonth = refData.fuelSpentThisMonth.toFixed(2);
-    refData.fuelSpentPreviousMonth = refData.fuelSpentPreviousMonth.toFixed(2);
-
-    return html`
-    <div class="fuel-section">
-        <img src="${displayImage(fuelType)}" class="fuel-img">
-        <h3>${fuelType}</h3>
-        <div class="stats-div">
-            <p>${refData.refuelsCountPreviousYear} refuels previous year</p>
-            <p>${refData.refuelsCountThisYear} refuels this year</p>
-        </div>
-        <div class="stats-div">
-            <p>${refData.refuelsCountThisMonth} refuels this month</p>
-            <p>${refData.refuelsCountPreviousMonth} refuels previous month</p>
-        </div>
-        <div class="stats-div">
-            <h1 class="stats-h1">Fuel spent</h1>
-            <p>${refData.fuelSpentPreviousYear} L previous year</p>
-            <p>${refData.fuelSpentThisYear} L this year</p>
-        </div>
-        <div class="stats-div">
-            <p>${refData.fuelSpentThisMonth} L this month</p>
-            <p>${refData.fuelSpentPreviousMonth} L previous month</p>
-        </div>
-        <div>
-            <h1 class="stats-h1">Average fuel consumption</h1>
-            <p class="stats-p">${refData.avgFuelCon} L /100 km.</p>
-        </div>
-    </div>`;
-}
-
 export function parseData(refuels) {
     const refuelsThisMonth = getDateRangeRefuels(refuels, "thisMonth");
     const refuelsPrevMonth = getDateRangeRefuels(refuels, "prevMonth");
