@@ -1,0 +1,138 @@
+.hero {
+    font-size: 125%;
+    margin-top: 128px;
+}
+
+h2 {
+    padding-bottom: 32px;
+}
+
+.tm-hero-col {
+    margin-left: 314px;
+}
+
+.main-form label {
+    display: block;
+    margin: 16px auto;
+    position: relative;
+}
+
+.main-form input[type="text"],
+.main-form input[type="password"] {
+    padding: 4px 8px;
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #4f6457;
+}
+
+.main-form textarea {
+    display: block;
+    border: 1px solid #4f6457;
+    width: 100%;
+    resize: vertical;
+    height: 300px;
+    padding: 4px 8px;
+}
+
+.fuel-img {
+    width: 150px;
+    height: 150px;
+    margin: 32px;
+    vertical-align: bottom;
+    object-fit: contain;
+}
+
+.preview {
+    margin-left: 214px;
+    padding: 32px;
+    padding-left: 0;
+}
+
+.ref-btn {
+    margin-left: 65px;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color: #1c69d4;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    transition: background-color 0.3s ease;
+}
+
+.greeting {
+    all: unset;
+    color: #f4f4f4;
+    font-size: x-large;
+    float: right;
+    line-height: 48px;
+}
+
+
+
+
+.details {
+    color: #999999;
+}
+
+.tm-members li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.action.tm-control {
+    padding: 4px 8px;
+    margin: 0 4px;
+}
+
+.error {
+    text-align: center;
+    color: red
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    
+    text-align: right;
+}
+
+#date.form-label{
+    display: inline;
+    margin-left: 235px ;
+    padding: 4px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: right;
+}
+
+.form-options {
+    /* display: flex;
+    margin-left: auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    
+    text-align: right; */
+    display: inline;
+    margin-left: 251px ;
+    padding: 4px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: right;
+}
+
+.form-checkbox {
+    display: inline;
+    margin-left: 10px;
+}

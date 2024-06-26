@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="211.667mm" height="211.667mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21167 21167"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#010202}
+   ]]>
+  </style>
+ </defs>
+<symbol id="icon-gas" viewBox="10312 10312 271 271">
+ <path class="fil0" d="M10582 10368l-37 -36c-1,0 -5,-2 -7,-2l-18 0c-5,0 -9,4 -9,9 0,6 4,10 9,10l9 0 18 18 -9 0c-5,0 -9,3 -9,9l0 36c0,5 4,9 9,9l27 0 0 72c0,11 -7,18 -18,18 -11,0 -18,-7 -18,-18l0 -45c0,-6 -3,-9 -9,-9l-27 0 0 -100c0,-14 -13,-27 -27,-27l-108 0c-15,0 -28,13 -28,27l0 226 -18 0 0 18 199 0 0 -18 -18 0 0 -108 18 0 0 36c0,20 16,36 36,36 20,0 36,-16 36,-36l0 -117c0,-2 -1,-6 -1,-8zm-233 26l0 -54c0,-6 3,-10 9,-10l108 0c5,0 9,4 9,9l0 55c0,5 -4,9 -9,9l-108 0c-6,0 -9,-4 -9,-9zm198 9l0 -18 18 0 0 18 -18 0z"/>
+</symbol>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use transform="scale(77.3745 77.3745)" x="1" y="1" width="271" height="271" xlink:href="#icon-gas"/>
+ </g>
+</svg>
