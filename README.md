@@ -32,6 +32,12 @@ Option to mark if the refuel was a full tank.
 <b>Other:</b>
 * [Postman](https://www.postman.com/) - For testing the REST API and queries.
 * [Live-server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - A Development Live Server with live browser reload.
+
+## 🔒 Login and testing
+For testing purposes, you can create an account and input your own refuel data, or login with the test account set up specifically for that purpose:
+email: ifueltest@test.com
+password: 123
+Don't worry, any changes made to the data in the test account will be reverted once per week to the original backup when the data was initially created, so feel free to test the functionality of the app in whichever way you want!
   
 ## 🧑‍💻 App Author
 <b>Milcho Milchev</b>
