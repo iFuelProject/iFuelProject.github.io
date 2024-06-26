@@ -35,8 +35,9 @@ Option to mark if the refuel was a full tank.
 
 ## 🔒 Login and testing
 For testing purposes, you can create an account and input your own refuel data, or login with the test account set up specifically for that purpose:
-* email: ifueltest@test.com
-* password: 123
+* URL: https://ifuelproject.github.io/
+* Email: ifueltest@test.com
+* Password: 123
 <p>Don't worry, any changes made to the data in the test account will be reverted once per week to the original backup when the data was initially created, so feel free to test the functionality of the app in whichever way you want!</p>
   
 ## 🧑‍💻 App Author
